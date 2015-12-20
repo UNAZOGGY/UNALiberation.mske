@@ -22,7 +22,7 @@ class Params
 		title = $STR_AGGRESSIVITY_PARAM;
 		values[] = {0.25,0.5,1,2,4};
 		texts[] = {$STR_AGGRESSIVITY_PARAM0, $STR_AGGRESSIVITY_PARAM1,$STR_AGGRESSIVITY_PARAM2,$STR_AGGRESSIVITY_PARAM3,$STR_AGGRESSIVITY_PARAM4};
-		default = 1;
+		default = 4;
 	};
 	class AdaptToPlayercount{
 		title = $STR_PARAM_ADAPT_TO_PLAYERCOUNT;
@@ -40,7 +40,7 @@ class Params
 		title = $STR_SHORTER_NIGHTS_PARAM;
 		values[] = {1,0};
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 1;
 	};
 	class Weather {
 		title = $STR_WEATHER_PARAM;
@@ -50,8 +50,8 @@ class Params
 	};
 	class ResourcesMultiplier {
 		title = $STR_PARAMS_RESOURCESMULTIPLIER;
-		values[] = { 0.25, 0.5, 0.75, 1, 1.25, 1.5, 2, 3, 5, 10, 20, 50 };
-		texts[] = { "x0.25", "x0.5", "x0.75", "x1", "x1.25","x1.5","x2","x3","x5","x10","x20","x50" };
+		values[] = { 0.25, 0.5, 0.75, 1 };
+		texts[] = { "x0.25", "x0.5", "x0.75", "x1" };
 		default = 1;
 	};
 	class Spacer1 {
@@ -64,7 +64,7 @@ class Params
 		title = $STR_PARAMS_FATIGUE;
 		values[] = { 0, 0.5, 0.66, 1, 1.5, 2 };
 		texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_FATIGUE1, $STR_PARAMS_FATIGUE2, $STR_PARAMS_FATIGUE3, $STR_PARAMS_FATIGUE4, $STR_PARAMS_ENABLED };
-		default = 1;
+		default = 0;
 	};
 	class Revive {
 		title = $STR_PARAMS_REVIVE;
@@ -76,7 +76,7 @@ class Params
 		title = $STR_PARAMS_CIVILIANS;
 		values[] = {0,0.5,1,2};
 		texts[] = {$STR_PARAMS_CIVILIANS1,$STR_PARAMS_CIVILIANS2,$STR_PARAMS_CIVILIANS3,$STR_PARAMS_CIVILIANS4};
-		default = 1;
+		default = 0;
 	};
 	class TeamkillPenalty{
 		title = $STR_PARAM_TEAMKILL_PENALTY;
@@ -88,20 +88,9 @@ class Params
 		title = $STR_PARAM_PASSIVE_INCOME;
 		values[] = {1,0};
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 0;
-	};
-	class HaloJump{
-		title = $STR_HALO_PARAM;
-		values[] = {1,5,10,15,20,30,0};
-		texts[] = { $STR_HALO_PARAM1, $STR_HALO_PARAM2, $STR_HALO_PARAM3, $STR_HALO_PARAM4, $STR_HALO_PARAM5, $STR_HALO_PARAM6, $STR_PARAMS_DISABLED };
 		default = 1;
 	};
-	class Space2 {
-		title = "";
-		values[] = { "" };
-		texts[] = { "" };
-		default = "";
-	};
+
 	class TechnicalOptions{
 		title = $STR_PARAMS_TECHNICALOPTIONS;
 		values[] = { "" };
@@ -130,7 +119,7 @@ class Params
 		title = $STR_PARAMS_DEPLOYMENTCAMERA;
 		values[] = { 1, 0 };
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 1;
+		default = 0;
 	};
 	class FirstFob {
 		title = $STR_PARAMS_FIRSTFOB;
@@ -138,12 +127,7 @@ class Params
 		texts[] = { $STR_YES, $STR_NO };
 		default = 0;
 	};
-	class Whitelist {
-		title = $STR_WHITELIST_PARAM;
-		values[] = { 1, 0 };
-		texts[] = { $STR_WHITELIST_ENABLED, $STR_PARAMS_DISABLED };
-		default = 0;
-	};
+
 	class WipeSave1{
 		title = $STR_WIPE_TITLE;
 		values[] = {0,1};
@@ -155,5 +139,17 @@ class Params
 		values[] = {0,1};
 		texts[] = {$STR_WIPE_NO,$STR_WIPE_YES};
 		default = 0;
+	};
+	class HaloJump{
+		title = "";
+		values[] = {1,5,10,15,20,30,0};
+		texts[] = { $STR_HALO_PARAM1, $STR_HALO_PARAM2, $STR_HALO_PARAM3, $STR_HALO_PARAM4, $STR_HALO_PARAM5, $STR_HALO_PARAM6, "" };
+		default = 0;
+	};
+	class Whitelist {
+		title = "";
+		values[] = { 1, 0 };
+		texts[] = { "", $STR_PARAMS_DISABLED };
+		default = 1;
 	};
 };

@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
         <Project name="Liberation">
                 <Package name="Liberation">
         	<Key ID="STR_MISSION_TITLE">
-        		<Original>Liberation 0.914</Original>
+        		<Original>Liberation 0.914d MSKE</Original>
         	</Key>
                 <Key ID="STR_MISSION_VERSION">
-                        <Original>v0.914</Original>
+                        <Original>v0.914d</Original>
                 </Key>
                 <Key ID="STR_MISSION_DESCRIPTION">
-                        <Original>With the power of Freedom and Democracy you shall liberate Altis from the CSAT oppression.</Original>
-                        <French>Avec le pouvoir de la Liberté et de la Démocratie votre mission est de libérer Altis de l'oppression du CSAT.</French>
-                        <German>Befreie Altis von der CSAT-Unterdrückung mit der Kraft von Freiheit und Demokratie</German>
+                        <Original>With the power of Freedom and Democracy you shall liberate Malden, Sarugao, Kolgujev and Everon from the CSAT oppression.</Original>
+                        <French>Avec le pouvoir de la Liberté et de la Démocratie votre mission est de libérer Malden, Sarugao, Kolgujev et Everon de l'oppression du CSAT.</French>
+                        <German>Befreie Malden, Sarugao, Kolgujev und Everon von der CSAT-Unterdrückung mit der Kraft von Freiheit und Demokratie</German>
                 </Key>
                 <Key ID="STR_Deploy_OnPoint">
                         <Original>Deploy</Original>

@@ -133,14 +133,39 @@ buildings = [
 ["Land_DieselGroundPowerUnit_01_F",0,0,0],
 ["Land_Pallet_MilBoxes_F",0,0,0],
 ["Land_PaperBox_open_full_F",0,0,0],
-["Land_ClutterCutter_large_F",0,0,0]
+["Land_ClutterCutter_large_F",0,0,0],
+["Land_MilOffices_V1_F",0,0,0],
+["Land_HelipadSquare_F",0,0,0],
+["Land_BagFence_Corner_F",0,0,0],
+["Land_BagFence_End_F",0,0,0],
+["Land_BagFence_Long_F",0,0,0],
+["Land_BagFence_Round_F",0,0,0],
+["Land_BagFence_Short_F",0,0,0],
+["Land_NavigLight",0,0,0],
+["Land_LampAirport_F",0,0,0],
+["Land_Hangar_F",0,0,0],
+["Land_Shed_Big_F",0,0,0],
+["Land_Bunker_F",0,0,0],
+["Land_Cargo_Tower_V1_F",0,0,0],
+["Land_Medevac_house_V1_F",0,0,0],
+["Land_Medevac_HQ_V1_F",0,0,0],
+["Land_Radar_Small_F",0,0,0],
+["Land_TentHangar_V1_F",0,0,0],
+["Land_Research_HQ_F",0,0,0],
+["Land_Dome_Small_F",0,0,0],
+["Land_PortableLight_double_F",0,0,0],
+["RoadCone_F",0,0,0],
+["RoadCone_L_F",0,0,0],
+["ArrowDesk_L_F",0,0,0],
+["ArrowDesk_R_F",0,0,0],
+["Land_i_Shed_Ind_F",0,0,0]
 ];
 
 support_vehicles = [
 [Arsenal_typename,10,0,0],
-[Respawn_truck_typename,20,0,5],
-[FOB_box_typename,30,50,0],
-[FOB_truck_typename,30,50,5],
+[Respawn_truck_typename,20,1000,5],
+[FOB_box_typename,30,1500,0],
+[FOB_truck_typename,30,1500,5],
 ["B_APC_Tracked_01_CRV_F",0,30,10],
 ["C_Offroad_01_repair_F",5,0,2],
 ["B_Truck_01_Repair_F",10,0,5],
@@ -165,11 +190,11 @@ blufor_squad_para = [ "B_soldier_PG_F","B_soldier_PG_F","B_soldier_PG_F","B_sold
 // The game doesn't calculate the actual cost of the squads when they're being bought and instead uses the costs below (especially ammo),
 // but once they're spawned the cost of each individual unit will be used to calculate caps (especially manpower and fuel)
 squads = [
-[blufor_squad_inf_light,20,0,0],
-[blufor_squad_inf,30,0,0],
-[blufor_squad_at,20,25,0],
-[blufor_squad_aa,20,25,0],
-[blufor_squad_recon,25,0,0],
+[blufor_squad_inf_light,15,0,0],
+[blufor_squad_inf,40,0,0],
+[blufor_squad_at,50,25,0],
+[blufor_squad_aa,50,25,0],
+[blufor_squad_recon,15,0,0],
 [blufor_squad_para,20,0,0]
 ];
 
